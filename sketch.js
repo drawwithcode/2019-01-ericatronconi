@@ -3,9 +3,12 @@ function preload(){
 }
 
 function setup() {
-  // put setup code here
+  createCanvas(windowWidth, windowHeight);
+  angleMode(DEGREES);
+
+  background(0);
 }
 
 function draw() {
-  // put drawing code here
+ellipse(width / 2, height / 2, 25);
 }
